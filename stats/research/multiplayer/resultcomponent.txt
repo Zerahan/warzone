@@ -1,0 +1,25 @@
+Research ID,Component ID,Type,Replaced Component,Replaced Type,unused
+R-FieldConstruction,Body1REC,BODY,0,0,0
+R-FieldConstruction,wheeled01,PROPULSION,0,0,0
+R-FieldConstruction,ConstructorMk1,CONSTRUCT,0,0,0
+R-Munitions,TwinAssaultGunMk1,WEAPON,0,0,1
+R-Munitions,TwinAssaultGunMk1-VTOL,WEAPON,0,0,1
+R-Command,CommanderMk1,BRAIN,0,0,2
+R-Recon,hover01,PROPULSION,0,0,4
+R-Recon,SensorMk1,SENSOR,0,0,4
+R-Recon,Body4ABT,BODY,0,0,4
+R-Recon,SensorDetectorMk1,SENSOR,0,0,4
+R-FlakCannon,FlakCannonMk1,WEAPON,0,0,5
+R-LightTank,HalfTrack,PROPULSION,0,0,6
+R-LightTank,Body5REC,BODY,0,0,6
+R-Artillery,MortarMk1,WEAPON,0,0,8
+R-Repair,RepairMk1,REPAIR,0,0,10
+R-Flamethrower,FlamethrowerMk1,WEAPON,0,0,11
+R-Aircraft,V-Tol,PROPULSION,0,0,12
+R-HeavyTank,tracked01,PROPULSION,0,0,13
+R-HeavyTank,Body10MBT,BODY,0,0,13
+R-HeavyWeapons,AssaultCannonMk1,WEAPON,0,0,14
+R-HeavyWeapons,AssaultCannonMk1-VTOL,WEAPON,0,0,14
+R-HellfireArtillery,MortarFlameMk1,WEAPON,0,0,15
+R-HeavyArtillery,HeavyArtilleryMk1,WEAPON,0,0,16
+R-AntiAirMissiles,AAMissileMk1,WEAPON,0,0,17

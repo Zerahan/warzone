@@ -1,0 +1,16 @@
+Research ID,Function ID,unused
+R-AdvancedModules_Mk1,Struc-Research-Upgrade01,0
+R-AdvancedModules_Mk1,Struc-Power Upgrade01,0
+R-AdvancedModules_Mk2,Struc-Research-Upgrade02,1
+R-AdvancedModules_Mk3,Struc-Research-Upgrade03,2
+R-AdvancedModules_Mk3,Struc-Power Upgrade01b,2
+R-AdvancedModules_Mk4,Struc-Research-Upgrade04,3
+R-AdvancedModules_Mk4,Struc-Power Upgrade01c,3
+R-AdvancedModules_Mk5,Struc-Research-Upgrade05,4
+R-AdvancedModules_Mk6,Struc-Research-Upgrade06,5
+R-AdvancedModules_Mk6,Struc-Power Upgrade02,5
+R-AdvancedModules_Mk7,Struc-Research-Upgrade07,6
+R-AdvancedModules_Mk7,Struc-Power Upgrade03,6
+R-AdvancedModules_Mk8,Struc-Research-Upgrade08,7
+R-AdvancedModules_Mk9,Struc-Research-Upgrade09,8
+R-AdvancedModules_Mk9,Struc-Power Upgrade03a,8
