@@ -1,10 +1,10 @@
-Civ V: Communitas AI and Tools (CAT) (for BNW)
+Warzone 2100 mod (Unnamed?)
 
-Features:   http://communitas.wikia.com/wiki/Communitas_Wiki
-Discussion: http://tinyurl.com/communitas-mod
-Support:    http://tinyurl.com/civupbug
-News:       http://civmodding.wordpress.com
-Credits:    http://communitas.wikia.com/wiki/Credits
+Features:   http://
+Discussion: http://
+Support:    http://
+News:       http://
+Credits:    http://
 
 
 
@@ -29,8 +29,8 @@ Details:
 6. Open the project in the GitHub for windows app ("the app"), and ensure the branch is set to beta.
 
 => Make changes
-1. Improve the project with your preferred editors like ModBuddy and Notepad++.
-2. Note each change on: http://communitas.wikia.com/wiki/Cat_History
+1. Improve the project with your preferred editors like Notepad++ and Notepad+=.
+2. Note each change on: http://
 
 => Merge to original project
 1. Open the project in the app.
