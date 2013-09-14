@@ -203,13 +203,11 @@ const VTolWeapons = [
 ]
 
 const standardTankCannon = [
-	"Cannon5VulcanMk1",
-	"Cannon1Mk1",
+	"AssaultCannonMk1",
 ];
 
 const standardTankMG = [
-	"MG5TWINROTARY",
-	"MG2Mk1",
+	"TwinAssaultGunMk1",
 ];
 
 const standardResearchPathNoob = [

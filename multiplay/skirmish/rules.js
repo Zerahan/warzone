@@ -29,25 +29,9 @@ function eventGameInit()
 	applyLimitSet();	// set limit options
 
 	const numCleanTech = 1;	// do x for clean	
-	const numBaseTech = 2; // do x for base
+	const numBaseTech = 1; // do x for base
 	var techlist = new Array(
-		"R-FieldConstruction",
-		"R-Munitions",
-		"R-Command",
-		"R-Construction",
-		"R-Recon",
-		"R-FlakCannon",
-		"R-ModularDesign",
-		"R-Artillery",
-		"R-CounterBattery",
-		"R-Repair",
-		"R-Flamethrower",
-		"R-Aircraft",
-		"R-HeavyTank",
-		"R-HeavyWeapons",
-		"R-HellfireArtillery",
-		"R-HeavyArtillery",
-		"R-AntiAirMissiles");
+		"R-FieldConstruction");
 
 	for (var playnum = 0; playnum < maxPlayers; playnum++)
 	{

@@ -163,8 +163,8 @@ function constructPersonality() {
 		this.researchPathPrimary		= secondaryResearchPathNoob;
 		this.researchPathResource		= secondaryResearchPathSmart;
 		this.tankPropulsions	= standardTankPropulsionsNoob;
-		this.apWeapons			= [ standardTankAPNoobOne, standardTankAPNoobTwo, ];
-		this.atWeapons			= [ standardTankATNoobOne, standardTankATNoobTwo, ];
+		this.apWeapons			= [ standardTankMG, standardTankCannon, ];
+		this.atWeapons			= [ standardTankMG, standardTankCannon, ];
 		this.apCyborgStats		= [ standardCyborgAPNoobOne, standardCyborgAPNoobTwo, ];
 		this.atCyborgStats		= [ standardCyborgATNoobOne, standardCyborgATNoobTwo, standardCyborgATNoobThree];
 	} else {

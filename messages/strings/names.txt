@@ -2025,6 +2025,8 @@ R-HeavyWeapons			"Heavy Weapons"
 R-HellfireArtillery		"Incendiary Artillery"
 R-HeavyArtillery		"Heavy Artillery"
 R-AntiAirMissiles		"Anti-Air Missiles"
+
+/* Tech Upgrades */
 R-AdvancedModules_Mk1	"Advanced Modules Mk1"
 R-AdvancedModules_Mk2	"Advanced Modules Mk2"
 R-AdvancedModules_Mk3	"Advanced Modules Mk3"
@@ -2034,6 +2036,16 @@ R-AdvancedModules_Mk6	"Advanced Modules Mk6"
 R-AdvancedModules_Mk7	"Advanced Modules Mk7"
 R-AdvancedModules_Mk8	"Advanced Modules Mk8"
 R-AdvancedModules_Mk9	"Advanced Modules Mk9"
+R-Manufacturing_Mk1		"Manufacturing Mk1"
+R-Manufacturing_Mk2		"Manufacturing Mk2"
+R-Manufacturing_Mk3		"Manufacturing Mk3"
+R-Manufacturing_Mk4		"Manufacturing Mk4"
+R-Manufacturing_Mk5		"Manufacturing Mk5"
+R-Manufacturing_Mk6		"Manufacturing Mk6"
+R-Manufacturing_Mk7		"Manufacturing Mk7"
+R-Manufacturing_Mk8		"Manufacturing Mk8"
+R-Manufacturing_Mk9		"Manufacturing Mk9"
+
 
 /* Structures */
 
