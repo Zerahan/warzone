@@ -1529,9 +1529,9 @@ function produceDroids() {
 			iHaveFactories = true;
 			if (needMoreTrucks() && truckCount<2) {
 				if (iHaveHovers()) {
-					buildDroid(struct, "Hover Construction Droid", truckBodies, ["hover01",], "", DROID_CONSTRUCT, "Spade1Mk1");
+					buildDroid(struct, "Hover Construction Droid", truckBodies, ["hover01",], "", DROID_CONSTRUCT, "ConstructorMk1");
 				} else {
-					buildDroid(struct, "Construction Droid", truckBodies, truckPropulsions, "", DROID_CONSTRUCT, "Spade1Mk1");
+					buildDroid(struct, "Construction Droid", truckBodies, truckPropulsions, "", DROID_CONSTRUCT, "ConstructorMk1");
 				}
 				++truckCount;
 				continue;

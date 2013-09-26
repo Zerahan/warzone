@@ -1,37 +1,37 @@
 Research ID,Function ID,unused
-R-AdvancedModules_Mk1,Struc-Research-Upgrade01,0
-R-AdvancedModules_Mk1,Struc-Power Upgrade01,0
-R-AdvancedModules_Mk2,Struc-Research-Upgrade02,1
-R-AdvancedModules_Mk3,Struc-Research-Upgrade03,2
-R-AdvancedModules_Mk3,Struc-Power Upgrade01b,2
-R-AdvancedModules_Mk4,Struc-Research-Upgrade04,3
-R-AdvancedModules_Mk4,Struc-Power Upgrade01c,3
-R-AdvancedModules_Mk5,Struc-Research-Upgrade05,4
-R-AdvancedModules_Mk6,Struc-Research-Upgrade06,5
-R-AdvancedModules_Mk6,Struc-Power Upgrade02,5
-R-AdvancedModules_Mk7,Struc-Research-Upgrade07,6
-R-AdvancedModules_Mk7,Struc-Power Upgrade03,6
-R-AdvancedModules_Mk8,Struc-Research-Upgrade08,7
-R-AdvancedModules_Mk9,Struc-Research-Upgrade09,8
-R-AdvancedModules_Mk9,Struc-Power Upgrade03a,8
-R-Manufacturing_Mk1,Struc-Factory-Upgrade01,9
-R-Manufacturing_Mk1,Struc-VTOLFactory-Upgrade01,9
-R-Manufacturing_Mk1,Sys-Engineering-Upgrade01,9
-R-Manufacturing_Mk2,Struc-Factory-Upgrade02,10
-R-Manufacturing_Mk2,Struc-VTOLFactory-Upgrade02,10
-R-Manufacturing_Mk3,Struc-Factory-Upgrade03,11
-R-Manufacturing_Mk3,Struc-VTOLFactory-Upgrade03,11
-R-Manufacturing_Mk4,Struc-Factory-Upgrade04,12
-R-Manufacturing_Mk4,Struc-VTOLFactory-Upgrade04,12
-R-Manufacturing_Mk5,Struc-Factory-Upgrade05,13
-R-Manufacturing_Mk5,Struc-VTOLFactory-Upgrade05,13
-R-Manufacturing_Mk5,Sys-Engineering-Upgrade02,13
-R-Manufacturing_Mk6,Struc-Factory-Upgrade06,14
-R-Manufacturing_Mk6,Struc-VTOLFactory-Upgrade06,14
-R-Manufacturing_Mk7,Struc-Factory-Upgrade07,15
-R-Manufacturing_Mk7,Struc-VTOLFactory-Upgrade07,15
-R-Manufacturing_Mk8,Struc-Factory-Upgrade08,16
-R-Manufacturing_Mk8,Struc-VTOLFactory-Upgrade08,16
-R-Manufacturing_Mk9,Struc-Factory-Upgrade09,17
-R-Manufacturing_Mk9,Struc-VTOLFactory-Upgrade09,17
-R-Manufacturing_Mk9,Sys-Engineering-Upgrade03,17
+R-ManufacturingMk1,Struc-Factory-Upgrade01,18
+R-ManufacturingMk1,Struc-VTOLFactory-Upgrade01,18
+R-ManufacturingMk1,Sys-Engineering-Upgrade01,18
+R-ManufacturingMk2,Struc-Factory-Upgrade02,19
+R-ManufacturingMk2,Struc-VTOLFactory-Upgrade02,19
+R-ManufacturingMk3,Struc-Factory-Upgrade03,20
+R-ManufacturingMk3,Struc-VTOLFactory-Upgrade03,20
+R-ManufacturingMk4,Struc-Factory-Upgrade04,21
+R-ManufacturingMk4,Struc-VTOLFactory-Upgrade04,21
+R-ManufacturingMk5,Struc-Factory-Upgrade05,22
+R-ManufacturingMk5,Struc-VTOLFactory-Upgrade05,22
+R-ManufacturingMk5,Sys-Engineering-Upgrade02,22
+R-ManufacturingMk6,Struc-Factory-Upgrade06,23
+R-ManufacturingMk6,Struc-VTOLFactory-Upgrade06,23
+R-ManufacturingMk7,Struc-Factory-Upgrade07,24
+R-ManufacturingMk7,Struc-VTOLFactory-Upgrade07,24
+R-ManufacturingMk8,Struc-Factory-Upgrade08,25
+R-ManufacturingMk8,Struc-VTOLFactory-Upgrade08,25
+R-ManufacturingMk9,Struc-Factory-Upgrade09,26
+R-ManufacturingMk9,Struc-VTOLFactory-Upgrade09,26
+R-ManufacturingMk9,Sys-Engineering-Upgrade03,26
+R-AdvancedModulesMk1,Struc-Research-Upgrade01,27
+R-AdvancedModulesMk1,Struc-Power Upgrade01,27
+R-AdvancedModulesMk2,Struc-Research-Upgrade02,28
+R-AdvancedModulesMk3,Struc-Research-Upgrade03,29
+R-AdvancedModulesMk3,Struc-Power Upgrade01b,29
+R-AdvancedModulesMk4,Struc-Research-Upgrade04,30
+R-AdvancedModulesMk4,Struc-Power Upgrade01c,30
+R-AdvancedModulesMk5,Struc-Research-Upgrade05,31
+R-AdvancedModulesMk6,Struc-Research-Upgrade06,32
+R-AdvancedModulesMk6,Struc-Power Upgrade02,32
+R-AdvancedModulesMk7,Struc-Research-Upgrade07,33
+R-AdvancedModulesMk7,Struc-Power Upgrade03,33
+R-AdvancedModulesMk8,Struc-Research-Upgrade08,34
+R-AdvancedModulesMk9,Struc-Research-Upgrade09,35
+R-AdvancedModulesMk9,Struc-Power Upgrade03a,35

@@ -31,11 +31,16 @@ function eventGameInit()
 	const numCleanTech = 1;	// do x for clean	
 	const numBaseTech = 1; // do x for base
 	var techlist = new Array(
-		"R-FieldConstruction");
+		"R-Outposts");
 
 	for (var playnum = 0; playnum < maxPlayers; playnum++)
 	{
-		enableResearch("R-Munitions", playnum);
+		enableResearch("R-Sensors", playnum);
+		enableResearch("R-Construction", playnum);
+		enableResearch("R-Artillery", playnum);
+		enableResearch("R-FlakCannon", playnum);
+		enableResearch("R-Weapons", playnum);
+		enableResearch("R-LightSpeeder", playnum);
 
 		if (baseType == CAMP_CLEAN)
 		{
