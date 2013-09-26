@@ -114,54 +114,84 @@ function earlyGame(n) {
 // here come definitions of standard branches used by adaptive research AIs
 
 const primaryResearchPathNoob = [
-	"R-Munitions",
-	"R-Command",
-	"R-Recon",
-	"R-ModularDesign",
-	"R-FlakCannon",
-	"R-Artillery",
+	"R-LightSpeeder",
 	"R-Construction",
-	"R-Repair",
-	"R-CounterBattery",
-	"R-Aircraft",
-	"R-Flamethrower",
-	"R-HellfireArtillery",
-	"R-HeavyTank",
+	"R-Sensors",
+	"R-Artillery",
+	"R-Weapons",
+	"R-FlakCannon",
+	"R-Counter-Battery",
+	"R-Command",
+	"R-ModularDesign",
+	"R-LightWeapons",
 	"R-HeavyWeapons",
+	"R-LightArtillery",
 	"R-HeavyArtillery",
-	"R-AntiAirMissiles",
+	"R-HeavyTank",
+	"R-Aircraft",
+	"R-FlakCannon",
+	"R-Anti-AirMissiles",
 ];
 
 const secondaryResearchPathNoob = [
-	"R-AdvancedModules_Mk1",
-	"R-AdvancedModules_Mk2",
-	"R-AdvancedModules_Mk3",
-	"R-AdvancedModules_Mk4",
-	"R-AdvancedModules_Mk5",
-	"R-AdvancedModules_Mk6",
-	"R-AdvancedModules_Mk7",
-	"R-AdvancedModules_Mk8",
-	"R-AdvancedModules_Mk9",
+	"R-ManufacturingMk1",
+	"R-AdvancedModulesMk1",
+	"R-ManufacturingMk2",
+	"R-AdvancedModulesMk2",
+	"R-ManufacturingMk3",
+	"R-AdvancedModulesMk3",
+	"R-ManufacturingMk4",
+	"R-AdvancedModulesMk4",
+	"R-ManufacturingMk5",
+	"R-AdvancedModulesMk5",
+	"R-ManufacturingMk6",
+	"R-AdvancedModulesMk6",
+	"R-ManufacturingMk7",
+	"R-AdvancedModulesMk7",
+	"R-ManufacturingMk8",
+	"R-AdvancedModulesMk8",
+	"R-ManufacturingMk9",
+	"R-AdvancedModulesMk9",
 ]
 
 const primaryResearchPathSmart = [
-	"R-Munitions",
-	"R-ModularDesign",
+	"R-Weapons",
 	"R-Construction",
-	"R-Flamethrower",
+	"R-ModularDesign",
+	"R-LightSpeeder",
+	"R-FlakCannon",
+	"R-Aircraft",
+	"R-Sensors",
+	"R-Artillery",
 	"R-HeavyWeapons",
+	"R-LightWeapons",
+	"R-HeavyTank",
+	"R-Anti-AirMissiles",
+	"R-LightArtillery",
+	"R-HeavyArtillery",
+	"R-Counter-Battery",
+	"R-Command",
 ]
 
 const secondaryResearchPathSmart = [
 	"R-AdvancedModules_Mk1",
+	"R-ManufacturingMk1",
 	"R-AdvancedModules_Mk2",
 	"R-AdvancedModules_Mk3",
+	"R-ManufacturingMk2",
 	"R-AdvancedModules_Mk4",
+	"R-ManufacturingMk3",
 	"R-AdvancedModules_Mk5",
+	"R-ManufacturingMk4",
 	"R-AdvancedModules_Mk6",
+	"R-ManufacturingMk5",
 	"R-AdvancedModules_Mk7",
+	"R-ManufacturingMk6",
 	"R-AdvancedModules_Mk8",
+	"R-ManufacturingMk7",
 	"R-AdvancedModules_Mk9",
+	"R-ManufacturingMk8",
+	"R-ManufacturingMk9",
 ]
 
 const standardResearchPathSmartAttacker = [
@@ -202,12 +232,16 @@ const VTolWeapons = [
 	"TwinAssaultGunMk1-VTOL",
 ]
 
-const standardTankCannon = [
-	"AssaultCannonMk1",
+const standardTankHeavy = [
+	"HeavyWeapon1_Mk1",
 ];
 
-const standardTankMG = [
-	"TwinAssaultGunMk1",
+const standardTankMedium = [
+	"MediumWeapon1_Mk1",
+];
+
+const standardTankLight = [
+	"LightWeapon1_Mk1",
 ];
 
 const standardResearchPathNoob = [
@@ -660,31 +694,31 @@ const standardTankAPMachinegunRocket = [
 
 const standardTankAB = [
 	[
-		"HeavyArtilleryMk1",
-		"MortarFlameMk1",
-		"MortarMk1",
+		"HeavyArtillery1_Mk1",
+		"LightArtillery1_Mk1",
+		"MediumArtillery1_Mk1",
 	],
 	[
-		"MortarFlameMk1",
-		"HeavyArtilleryMk1",
-		"MortarMk1",
+		"LightArtillery1_Mk1",
+		"HeavyArtillery1_Mk1",
+		"MediumArtillery1_Mk1",
 	],
 	[
-		"HeavyArtilleryMk1",
-		"MortarFlameMk1",
-		"MortarMk1",
+		"HeavyArtillery1_Mk1",
+		"LightArtillery1_Mk1",
+		"MediumArtillery1_Mk1",
 	],
 	[
-		"MortarFlameMk1",
-		"HeavyArtilleryMk1",
-		"MortarMk1",
+		"LightArtillery1_Mk1",
+		"HeavyArtillery1_Mk1",
+		"MediumArtillery1_Mk1",
 	],
 ];
 
 const standardTankAA = [
 	[
-		"AAMissileMk1",
-		"FlakCannonMk1"
+		"SingleAntiAir1_Mk1",
+		"MultiAntiAir1_Mk1"
 	],
 ];
 

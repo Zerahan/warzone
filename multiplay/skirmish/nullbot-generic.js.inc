@@ -37,13 +37,14 @@ function constructPersonality() {
 		"Body1REC", // viper
 	];
 
-	this.abWeapons = standardTankAB;
+	this.abWeapons = standardTankAB;	// Artillery
 	
-	this.aaWeapons = standardTankAA;
+	this.aaWeapons = standardTankAA;	// Anti-Aircraft
 	
 	this.vtolWeapons = [
-		"AssaultCannonMk1-VTOL",
-		"TwinAssaultGunMk1-VTOL"
+		"MediumWeapon1_Mk1_VTOL",
+		"LightWeapon1_Mk1_VTOL",
+		"HeavyWeapon1_Mk1_VTOL"
 	];
 
 	this.defenses = [
@@ -163,8 +164,8 @@ function constructPersonality() {
 		this.researchPathPrimary		= secondaryResearchPathNoob;
 		this.researchPathResource		= secondaryResearchPathSmart;
 		this.tankPropulsions	= standardTankPropulsionsNoob;
-		this.apWeapons			= [ standardTankMG, standardTankCannon, ];
-		this.atWeapons			= [ standardTankMG, standardTankCannon, ];
+		this.apWeapons			= [ standardTankMedium, standardTankLight, ];	// ap = Anti-Personel
+		this.atWeapons			= [ standardTankMedium, standardTankHeavy, ];	// at = Anti-Tank
 		this.apCyborgStats		= [ standardCyborgAPNoobOne, standardCyborgAPNoobTwo, ];
 		this.atCyborgStats		= [ standardCyborgATNoobOne, standardCyborgATNoobTwo, standardCyborgATNoobThree];
 	} else {
@@ -179,8 +180,8 @@ function constructPersonality() {
 			break;
 		}
 		this.tankPropulsions = standardTankPropulsions;
-		this.apWeapons = [ standardTankMG, standardTankCannon ];
-		this.atWeapons = [ standardTankMG, standardTankCannon ];
+		this.apWeapons = [ standardTankMedium, standardTankLight ];
+		this.atWeapons = [ standardTankMedium, standardTankHeavy ];
 		this.apCyborgStats = [ standardCyborgLaser, ];
 		this.atCyborgStats = [ standardCyborgLaser, ];
 	}
